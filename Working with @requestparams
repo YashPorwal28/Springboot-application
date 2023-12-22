@@ -27,6 +27,8 @@ public class ApiApplication {
 }
 
 
+// we could also give more params in this
+
 	//	@GetMapping("/")
 //	public Greeting greet ( @RequestParam("id") String id , @RequestParam("name") String name){
 //		String greetMessage = name == null || name.isBlank() ? "hi" : "hi" + name;
