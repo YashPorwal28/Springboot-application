@@ -27,6 +27,16 @@ public class ApiApplication {
 }
 
 
+	//	@GetMapping("/")
+//	public Greeting greet ( @RequestParam("id") String id , @RequestParam("name") String name){
+//		String greetMessage = name == null || name.isBlank() ? "hi" : "hi" + name;
+//		Greeting responseGreet = new Greeting(greetMessage
+//				, List.of("java", "cpp"), new Person("yash"));
+//		return responseGreet;
+//	}
+
+
+
 	record Greeting(String greet, List<String> lang , Person person){};
 	record  Person(String name){};
 
